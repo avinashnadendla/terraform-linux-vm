@@ -50,7 +50,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
        version = "latest"
   }
   admin_username = "demouser"
-  admin_password = "avinash@2002"
+  admin_password = ""
   computer_name = "avinashvm"
   network_interface_ids = [
       azurerm_network_interface.ni.id,
